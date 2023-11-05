@@ -50,20 +50,5 @@ Messages = new ChatCompletionMessage[]
 
 ```
 
-csharp
-Copy code
-Messages = new ChatCompletionMessage[]
-{
-    new ChatCompletionMessage
-    {
-        Role = "system",  //this tell GPT how to behave
-        Content = "You have only one purpose: to provide me with C# code that will run directly within a Grasshopper C# Script Node. "   
-    },
-    new ChatCompletionMessage
-    {
-        Role = "user",
-        Content = "Your user input goes here."  
-    }
-}
 The system message sets the behavior of the assistant, and you can alternate between user and assistant messages.
 
