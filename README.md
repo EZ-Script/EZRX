@@ -1,6 +1,6 @@
 # EZRX
 
-This is a simple example of how to use the OpenAI API to create a chatbot using C#/.NET. The chatbot engages in a conversation with the user and the GPT-3.5 Turbo model provided by OpenAI.
+This is a simple example of how to use the OpenAI API to create a chatbot using C#/.NET. The chatbot engages in a conversation with the user and the GPT-3.5 Turbo model provided by OpenAI. The output is a C# script that will run directly within a Grasshopper C# Script Node. 
 
 Prerequisites
 
